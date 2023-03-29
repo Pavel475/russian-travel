@@ -1,0 +1,34 @@
+.area-intro {
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .area-intro {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .area-intro {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .area-intro {
+        max-width: 500px;
+    } 
+}
+
+@media screen and (max-width: 540px) {
+    .area-intro {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .area-intro {
+        max-width: 288px;
+    }
+}

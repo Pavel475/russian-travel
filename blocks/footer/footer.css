@@ -1,0 +1,38 @@
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1184px;
+    min-height: 18px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .footer {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer {
+        max-width: 186px;
+        margin: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+    } 
+}

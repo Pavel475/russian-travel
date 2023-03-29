@@ -1,0 +1,11 @@
+@media screen and (max-width: 928px) {
+    .place__title_type_transfer {
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .place__title_type_transfer {
+        letter-spacing: 0px;
+    }
+}
