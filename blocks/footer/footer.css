@@ -1,14 +1,14 @@
 .footer {
+    font-family: 'Inter', Arial, sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     max-width: 1184px;
-    min-height: 18px;
     margin: 0 auto;
-    padding-bottom: 24px;
+    padding: 92px 0 24px 0;
 }
 
 @media screen and (max-width: 1150px) {
@@ -20,6 +20,7 @@
 @media screen and (max-width: 928px) {
     .footer {
         max-width: 720px;
+        padding: 88px 0 24px 0;
     }
 }
 
@@ -35,4 +36,16 @@
             -ms-flex-align: start;
                 align-items: start;
     } 
+}
+
+@media screen and (max-width: 540px) {
+    .footer {
+        padding: 75px 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        padding: 64px 0 24px 0;
+    }
 }

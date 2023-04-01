@@ -4,9 +4,7 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
     margin: 0;
-    z-index: 5;
     max-width: 360px;
 }
 
@@ -15,7 +13,6 @@
         font-size: 16px;
         line-height: 19px;
         max-width: 300px;
-        max-height: 70px;
     }
 }
 
@@ -24,6 +21,5 @@
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
-        max-height: 48px;
     }
 }

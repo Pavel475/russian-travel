@@ -1,4 +1,7 @@
 .header {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1184px;
+    margin: 0 auto;
     padding: 28px 48px 0;
     display: -webkit-box;
     display: -ms-flexbox;
