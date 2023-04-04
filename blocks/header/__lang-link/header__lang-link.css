@@ -5,17 +5,26 @@
     line-height: 28px;
     margin: 18px 0 6px;
     color: #FFFFFF;
+    text-decoration: none;
+    opacity: 1;
+    -webkit-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+    transition: opacity 0.7s;
 }
 
 .header__lang-link:last-child {
     margin-left: 18px;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 540px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
-        margin: 14px 0 8px;
+        margin-top: 14px;
+        margin-bottom: 8px;
     }
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }

@@ -8,12 +8,13 @@
         justify-self: center;
     color: #FFFFFF;
     margin: 32px 0 64px 0;
-    width: 640px;
+    max-width: 640px;
 }
 
 @media screen and (max-width: 1150px) {
     .lead__subtitle {
-        margin: 32px 0 56px 0;
+        margin-top: 32px;
+        margin-bottom: 56px;
     }
 }
 
@@ -21,7 +22,7 @@
     .lead__subtitle {
         font-size: 26px;
         line-height: 30px;
-        width: 420px;
+        max-width: 420px;
     }
 }
 
@@ -29,7 +30,7 @@
     .lead__subtitle {
         font-size: 20px;
         line-height: 25px;
-        width: 350px;
+        max-width: 350px;
     }
 }
 
@@ -37,7 +38,8 @@
     .lead__subtitle {
         font-size: 16px;
         line-height: 20px;
-        margin: 16px 0 40px 0;
-        width: 288px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+        max-width: 288px;
     }
 }

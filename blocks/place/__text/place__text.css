@@ -7,20 +7,25 @@
     grid-row: 2/3;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 767px) {
     .place__text {
         -ms-grid-column: 1;
         grid-column: 1;
         -ms-grid-row: 4;
         grid-row: 4;
-        width: 380px;
-        margin: 0 auto;
+        max-width: 520px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__text {
+        max-width: 380px;
     }
 }
 
 @media screen and (max-width: 450px) {
     .place__text {
-        width: 288px;
+        max-width: 288px;
         margin: 0 auto;
     }
 }

@@ -1,3 +1,9 @@
+@media screen and (max-width: 1023px) {
+    .place__title_type_transfer {
+        letter-spacing: 1.1px;
+    }
+}
+
 @media screen and (max-width: 928px) {
     .place__title_type_transfer {
         letter-spacing: 1px;

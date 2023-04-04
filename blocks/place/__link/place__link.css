@@ -4,12 +4,15 @@
     font-size: 18px;
     line-height: 22px;
     -webkit-text-decoration-line: underline;
-            text-decoration-line: underline;
+    text-decoration-line: underline;
     color: #FFFFFF;
     opacity: 1;
     -webkit-transition: opacity 0.7s;
     -o-transition: opacity 0.7s;
     transition: opacity 0.7s;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
 }
 
 .place__link:hover {
